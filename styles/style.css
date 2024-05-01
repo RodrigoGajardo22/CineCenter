@@ -1,0 +1,189 @@
+h1,
+h2,
+h3,
+h4,
+hr {
+  color: #e2e2e2;
+  margin: 5px;
+}
+
+p {
+  font-size: 20px;
+  color: rgb(252, 252, 252);
+  margin: 10px;
+}
+
+.div-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.div-nav a {
+  color: #fdfdfd;
+  margin-right: 3em; /* Ajusta el valor según el espaciado deseado */
+}
+
+.div-nav a:hover {
+  color: #3ac6f8;
+  transition: all 400ms ease;
+  transform: translateY(35%);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centrar verticalmente los elementos */
+  background-color: #000000;
+  color: white; /* Color de texto blanco */
+  padding: 10px; /* Espaciado interno */
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  position: relative;
+  padding: 2em;
+  min-height: 100vh;
+}
+
+nav ul {
+  list-style-type: none; /* Quitar viñetas de la lista */
+  padding: 0; /* Quitar el padding predeterminado de la lista */
+  margin: 0; /* Quitar el margen predeterminado de la lista */
+}
+
+nav ul li {
+  display: inline-block; /* Mostrar los elementos de la lista en línea */
+  margin-right: 20px; /* Margen a la derecha para separar los elementos */
+}
+nav ul li a {
+  color: #ffffff; /* Cambia el color del texto a blanco */
+}
+
+nav ul li a:hover {
+  transition: color 0.3s;
+  color: #68c9ed; /* Cambiar color del texto al pasar el cursor */
+}
+
+main {
+  background-color: #000000;
+}
+
+img {
+  max-width: 100%;
+}
+
+.card_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.tarjetas {
+  margin: 10px;
+  background-color: #000000;
+  border: 5px solid rgb(114, 114, 114);
+  border-radius: 20px;
+  padding: 1em;
+  width: 85%;
+  max-width: 20em;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgb(255, 255, 255);
+  transition: all 400ms ease;
+}
+
+.tarjetas:hover {
+  box-shadow: 5px 5px 20px rgb(255, 255, 255);
+  transform: translateY(-3%);
+}
+
+.titulo-header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.gif {
+  width: 3em;
+  height: 3em;
+}
+
+.contenedor-about {
+  padding: 2em 0;
+}
+
+.container {
+  background-color: #5a5a5a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 3em 0;
+  padding: 1em;
+  border: 5px solid rgb(194, 194, 194);
+  border-radius: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+  margin-top: 2em;
+}
+
+/* FORMULARIO */
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  width: 150px; /* Ancho fijo para las etiquetas */
+  margin-right: 15px; /* Espaciado entre la etiqueta y el campo de entrada */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  flex: 1; /* Los campos de entrada ocupan todo el espacio restante */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+  background-color: #0056b3;
+}
+
+label {
+  color: #ffffff; /* Cambia el color del texto */
+  font-size: 18px; /* Cambia el tamaño de la fuente */
+  font-weight: bold; /* Hace que el texto sea negrita */
+  margin-bottom: 5px; /* Añade un margen en la parte inferior */
+  display: inline-block; /* Permite establecer ancho y altura */
+  width: 150px; /* Ancho fijo para el label */
+}

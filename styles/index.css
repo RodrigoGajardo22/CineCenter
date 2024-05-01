@@ -1,0 +1,32 @@
+.justify-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  background-color: rgb(105, 100, 100);
+}
+
+.card-size {
+  width: 20rem;
+}
+
+nav ul li a {
+  color: #ffffff; /* Cambia el color del texto a blanco */
+}
+.tarjetas {
+  margin: 10px;
+  border: 5px solid rgb(114, 114, 114);
+  border-radius: 20px;
+  padding: 1em;
+  flex: 1 1 16em;
+  max-width: 20em;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgb(255, 255, 255);
+  transition: all 400ms ease;
+}
+
+.tarjetas :hover {
+  transition: 400ms;
+  box-shadow: 5px 5px 20px rgb(255, 255, 255);
+  transform: translateY(-3%);
+}
